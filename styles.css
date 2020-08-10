@@ -3,7 +3,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Montserrat";
 }
 
 html, body {
@@ -38,7 +38,7 @@ body {
 
 .main-nav {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: lighter;
     border-bottom: 3px solid white;
 }
@@ -49,7 +49,7 @@ body {
 
 h2 {
         font-family: "Montserrat";
-        color: rgb(65, 65, 65);
+        color: #001276;
         
 }
 
@@ -78,10 +78,12 @@ h2 {
 
 .content {
     margin: 1em;
+    text-align: justify ;
     }
 
 .container  {
-    max-width: 900px;
+    max-width: 1500px;
+    text-align: justify;
     margin: 0 auto;
     padding: 10px 1.5em;
 }
@@ -139,11 +141,74 @@ h2 {
     padding: 0 2%;
 }
 
-.box{
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-    margin: 50px;
-    border: 10px solid black;
-    background-color: chocolate;
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+    font-family: "Poppins";
+    max-width: 5%;
+}
+
+.btnMail {
+    color: white;
+    background-color: white;
+    vertical-align: middle;
+    padding: .25em;
+    cursor: pointer;
+    border-radius: 10%;
+    border: none;
+}
+
+.btnLI {
+    color: white;
+    background-color: white;
+    vertical-align: middle;
+    padding: .25em;
+    cursor: pointer;
+    border-radius: 10%;
+    border: none;
+}
+
+.btnMail:hover {
+    background-color: none;
+}
+
+.btnLI:hover {
+    background-color: none;
+}
+
+.posty-row {
+    border-bottom: 1px solid #3398DB;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+}
+.posty-row:last-child {
+    border-bottom: none;
+}
+
+.posty-item{
+    padding-right: .5em;
+    display: inline-block;
+
+}
+.start-date {
+    color: #555;
+    font-weight: bold;
+    width: 12%;
+}
+.posty-name{
+    width: 13%;
+}
+.posty-title{
+    width: 32%;
+
+}
+.posty-city{
+    width: 15%
+
+}
+.posty-phone{
+    width: 15%;
 }
