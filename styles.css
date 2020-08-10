@@ -1,17 +1,142 @@
-.blue {
-    color: #001276;
-    font-size: 72px;
-    font: bold;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
     font-family: sans-serif;
-    font: 
 }
-h1  {
-    color: green;
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-color: black;
-font-family: sans-serif;
+    color: grey;
+    font-family: sans-serif;
+    }
+
+.main-nav ul {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.main-nav li { 
+    display: inline;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: .5em;
+    color: #001276;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    background-color: rgb(191, 230, 245);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 3px solid white;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+h2 {
+        font-family: "Montserrat";
+        color: rgb(65, 65, 65);
+        
+}
+
+.main-header {
+    background-image: url("Images/PSheadernew.png");
+    background-size: cover;
+    padding-bottom: 20px;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.postscript-name {
+    text-align: right;
+    margin: 0;
+    font-size: 1.5em;
+    font-family: "Poppins";
+    color: white;
+}
+.postscript-name-large {
+    text-align: center;
+    margin: 0;
+    font-size: 7em;
+    font-family: "Poppins";
+    color: #001276;
+}
+
+.content {
+    margin: 1em;
+    }
+
+.container  {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 1.5em;
+}
+.main-footer {
+    background-image: url("Images/postscriptpagesfooter.png") ;
+    background-size: cover;
+    padding: .5em 0;
+    font-family: "Poppins";
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: .5;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .75em;
+}
+.footer-nav img {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-nav ul {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.footer-nav li { 
+    display: inline;
+}
+
+.footer-nav a {
+    display: inline-block;
+    padding: .1em;
+    color: #001276;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    background-color: rgb(191, 230, 245);
+}
+
+.footer-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.footer-nav li {
+    padding: 0 2%;
 }
 
 .box{
